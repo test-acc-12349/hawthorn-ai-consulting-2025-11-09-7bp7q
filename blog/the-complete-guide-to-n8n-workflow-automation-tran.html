@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive guide to n8n workflow automation. Learn how to implement automation strategies, reduce costs, and transform your business operations with expert insights.">
+    <meta name="keywords" content="n8n automation, workflow automation, business process automation, automation implementation, cost reduction">
+    <meta name="author" content="Hawthorn AI Consulting">
+    <title>The Complete Guide to n8n Workflow Automation | Hawthorn AI</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        
+        body {
+            font-weight: 300;
+            color: #1A1A1A;
+        }
+        
+        .gradient-primary {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+        }
+        
+        .gradient-button {
+            background: linear-gradient(135deg, #FF5A5F 0%, #FFD166 100%);
+            transition: all 300ms ease;
+        }
+        
+        .gradient-button:hover {
+            filter: brightness(1.1);
+            transform: scale(1.05);
+        }
+        
+        .card-hover {
+            transition: all 300ms ease;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .link-hover {
+            transition: color 300ms ease;
+        }
+        
+        .link-hover:hover {
+            text-decoration: underline;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(255, 90, 95, 0.05) 0%, rgba(255, 209, 102, 0.05) 100%);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex items-center justify-between">
+                <a href="https://test-acc-12349.github.io/hawthorn-ai-consulting-2025-11-09-7bp7q" class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-lg">HA</span>
+                    </div>
+                    <span class="text-xl font-bold text-gray-900" style="font-family: 'Space Grotesk';">Hawthorn AI</span>
+                </a>
+                <a href="https://test-acc-12349.github.io/hawthorn-ai-consulting-2025-11-09-7bp7q/blog.html" class="text-gray-700 hover:text-[#FF5A5F] link-hover transition-colors duration-200 font-semibold">
+                    ← Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Blog Content -->
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <article class="prose prose-lg max-w-none">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-900" style="font-family: 'Space Grotesk';">The Complete Guide to n8n Workflow Automation: Transform Your Business Operations</h1>
+            
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=675&fit=crop&q=80" alt="Advanced workflow automation dashboard displaying connected systems and data flows" class="w-full rounded-lg shadow-lg mb-8">
+            
+            <p class="mb-4 leading-relaxed text-gray-700">
+                In today's fast-paced business environment, manual processes are becoming increasingly expensive and inefficient. Companies are losing millions of dollars annually to repetitive, time-consuming tasks that could be automated. If your organization is still relying on manual data entry, email notifications, and spreadsheet management, you're not alone—but you're also leaving significant value on the table. This comprehensive guide explores how n8n workflow automation can revolutionize your business operations, reduce costs, and free your team to focus on strategic initiatives.
+            </p>
+
+            <p class="mb-6 leading-relaxed text-gray-700">
+                n8n has emerged as the industry-leading open-source workflow automation platform, trusted by thousands of organizations worldwide. Unlike traditional RPA (Robotic Process Automation) tools that require extensive coding knowledge and significant capital investment, n8n offers an intuitive, visual interface combined with enterprise-grade capabilities. Whether you're a startup looking to scale efficiently or an enterprise seeking to optimize complex processes, this guide will walk you through everything you need to know about implementing n8n automation in your organization.
+            </p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900" style="font-family: 'Space Grotesk';">Understanding n8n and Modern Workflow Automation</h2>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                n8n is a visual, node-based workflow automation platform that enables businesses to connect and automate processes across hundreds of applications and services. Unlike traditional automation solutions that require deep technical expertise, n8n democratizes automation through its intuitive drag-and-drop interface. This means that both technical and non-technical team members can design, implement, and maintain sophisticated workflows without writing complex code.
+            </p>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                The core strength of n8n lies in its flexibility and extensibility. With over 500 pre-built integrations and the ability to create custom connectors, n8n can work with virtually any application your organization uses. Whether you need to connect your CRM to your accounting software, sync data between multiple platforms, or trigger complex multi-step workflows based on specific events, n8n provides the infrastructure to make it happen seamlessly.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Key Advantages of n8n Over Traditional Automation Tools</h3>
+
+            <ul class="list-disc list-inside mb-6 space-y-2">
+                <li class="text-gray-700"><strong>Open-Source Architecture:</strong> Deploy on your own infrastructure for complete data control and compliance flexibility</li>
+                <li class="text-gray-700"><strong>No-Code Visual Builder:</strong> Create complex workflows without programming knowledge, reducing implementation time and costs</li>
+                <li class="text-gray-700"><strong>Extensive Integration Library:</strong> Connect to 500+ applications including Salesforce, HubSpot, Slack, Google Workspace, and custom APIs</li>
+                <li class="text-gray-700"><strong>Cost-Effective:</strong> Significantly lower pricing compared to enterprise RPA platforms like UiPath or Blue Prism</li>
+                <li class="text-gray-700"><strong>Community-Driven:</strong> Active community contributing integrations, templates, and best practices</li>
+                <li class="text-gray-700"><strong>Enterprise Security:</strong> Self-hosted deployment options, encryption, role-based access controls, and audit logging</li>
+            </ul>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900" style="font-family: 'Space Grotesk';">Common Business Processes Ideal for n8n Automation</h2>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                The most successful automation implementations focus on processes that are repetitive, rule-based, and high-volume. These processes typically involve moving data between systems, performing routine checks, sending notifications, and generating reports. Organizations that identify and prioritize these workflows see the fastest ROI and most dramatic operational improvements.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Financial and Accounting Automation</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Finance teams spend countless hours on invoice processing, expense management, and reconciliation. With n8n automation, you can automatically extract invoice data from emails, validate amounts, route approvals based on thresholds, and update your accounting system—all without manual intervention. Many organizations report reducing invoice processing time from 3-5 days to just a few hours, with error rates dropping from 5-10% to nearly zero.
+            </p>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Consider a typical scenario: invoices arrive via email, need approval from multiple departments, and must be entered into your ERP system. An n8n workflow can automatically extract invoice data using OCR, check vendor information against your approved supplier list, route approvals to the appropriate managers based on amount and department, send reminder notifications for pending approvals, and finally post approved invoices to your accounting system. This entire process that once took your team 8-10 hours per day can now run automatically, with your team only handling exceptions.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Sales and CRM Workflow Automation</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Sales teams are constantly juggling multiple systems: email, CRM, calendar, communication tools, and contract management platforms. n8n can synchronize lead data across these systems, automatically create follow-up tasks, send personalized emails to prospects, update deal stages based on customer actions, and generate sales reports. This automation ensures no lead falls through the cracks while freeing your sales team to focus on relationship-building rather than data entry.
+            </p>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                A practical example: when a new lead is added to your CRM, n8n can automatically send a welcome email, create a calendar event for follow-up, log the interaction in your communication platform, and add the lead to your email marketing system. If the lead doesn't respond within 3 days, the workflow can send a reminder email and alert your sales team. This systematic approach significantly improves conversion rates while requiring zero manual effort.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Human Resources and Employee Onboarding</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Employee onboarding involves dozens of manual tasks: creating email accounts, provisioning software licenses, scheduling training sessions, collecting documentation, and setting up access credentials. n8n can orchestrate this entire process automatically. When a new employee is hired in your HR system, n8n can trigger a series of actions across multiple platforms, ensuring a smooth, consistent onboarding experience while reducing the burden on your HR team.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Marketing and Lead Generation</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Marketing teams generate massive amounts of data from various sources: website forms, social media, email campaigns, webinars, and events. n8n can automatically collect this data, deduplicate records, enrich lead information, score leads based on engagement, and segment audiences for targeted campaigns. This ensures your marketing efforts are data-driven and efficient, with leads automatically routed to the right sales representative at the right time.
+            </p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900" style="font-family: 'Space Grotesk';">Implementing n8n: A Step-by-Step Approach</h2>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Successful n8n implementation requires careful planning and a structured approach. Organizations that follow a methodical process see faster adoption, better results, and higher user satisfaction. Here's how to approach implementation strategically.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Phase 1: Assessment and Discovery</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Begin by conducting a thorough assessment of your current processes. Identify which workflows are most time-consuming, error-prone, and would benefit most from automation. Interview key stakeholders across departments to understand pain points and opportunities. Look for processes that are:
+            </p>
+
+            <ul class="list-disc list-inside mb-6 space-y-2">
+                <li class="text-gray-700">Highly repetitive and rule-based</li>
+                <li class="text-gray-700">Consuming significant staff time</li>
+                <li class="text-gray-700">Prone to human error</li>
+                <li class="text-gray-700">Involving data movement between systems</li>
+                <li class="text-gray-700">Currently managed by multiple tools or spreadsheets</li>
+            </ul>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Create a prioritized list of automation opportunities, ranking them by potential impact and implementation complexity. This helps you identify quick wins that can demonstrate ROI early, building momentum and buy-in for larger automation initiatives.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Phase 2: Infrastructure Setup and Configuration</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Decide whether to use n8n Cloud or self-host the platform. Cloud deployment offers simplicity and faster time-to-value, while self-hosting provides maximum control, security, and compliance flexibility. Most enterprises prefer self-hosting for sensitive data and compliance requirements. Once your infrastructure is in place, configure authentication, user roles, and access controls to ensure security and proper governance.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Phase 3: Building and Testing Workflows</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Start with your highest-priority, lowest-complexity workflow. Build it using n8n's visual editor, connecting your systems and defining the automation logic. Thoroughly test the workflow using sample data, ensuring it handles edge cases and errors gracefully. Test for performance, security, and compliance requirements specific to your organization.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Phase 4: Pilot Testing and Refinement</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Before rolling out to production, run a pilot with a subset of data or users. This allows you to validate that the workflow performs as expected in a real-world environment and to gather feedback from end users. Use this phase to identify and fix any issues, optimize performance, and refine the workflow based on user feedback.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Phase 5: Deployment and Training</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Once the pilot is successful, deploy the workflow to production. Provide comprehensive training to your team on how the automation works, how to monitor it, and how to handle exceptions. Create documentation and runbooks for troubleshooting common issues. Establish monitoring and alerting to catch problems early.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Phase 6: Optimization and Continuous Improvement</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                After deployment, continuously monitor workflow performance and gather feedback from users. Look for opportunities to optimize further, expand the automation to additional processes, or integrate new systems. Schedule regular reviews to ensure the workflow continues to deliver value and remains aligned with your business needs.
+            </p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900" style="font-family: 'Space Grotesk';">Measuring ROI and Business Impact</h2>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                One of the most compelling aspects of n8n automation is the measurable return on investment. Unlike some technology investments where benefits are abstract and difficult to quantify, automation delivers concrete, trackable results.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Key Metrics to Track</h3>
+
+            <ul class="list-disc list-inside mb-6 space-y-2">
+                <li class="text-gray-700"><strong>Time Savings:</strong> Hours saved per week or month, multiplied by hourly labor cost</li>
+                <li class="text-gray-700"><strong>Error Reduction:</strong> Percentage decrease in processing errors and their associated costs</li>
+                <li class="text-gray-700"><strong>Processing Speed:</strong> Reduction in cycle time (e.g., invoice processing time from 3 days to 2 hours)</li>
+                <li class="text-gray-700"><strong>Capacity Increase:</strong> Additional volume your team can handle without additional headcount</li>
+                <li class="text-gray-700"><strong>Quality Improvements:</strong> Better accuracy, consistency, and compliance</li>
+                <li class="text-gray-700"><strong>Payback Period:</strong> Time to recover implementation costs through savings</li>
+            </ul>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Most organizations see ROI within 3-6 months of implementation. A typical scenario: if you automate a process that takes one employee 10 hours per week, you're saving 520 hours annually. At an average burdened cost of $50 per hour, that's $26,000 in annual savings from just one process. Most n8n implementations involve multiple processes, with total savings often exceeding $100,000 annually for mid-market organizations.
+            </p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900" style="font-family: 'Space Grotesk';">Best Practices for n8n Implementation Success</h2>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Organizations that follow proven best practices achieve faster implementation, better results, and higher adoption rates. Here are the critical success factors:
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Start Small and Scale Gradually</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Don't try to automate your entire operation at once. Start with a high-impact, relatively simple workflow that can be completed quickly. This allows you to demonstrate value, build organizational confidence, and learn from the process before tackling more complex automations.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Involve Key Stakeholders</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Get buy-in from the people who will be affected by the automation. Involve them in the discovery and design phases so they understand the benefits and feel ownership over the implementation. This dramatically improves adoption and helps identify issues that might otherwise be missed.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Invest in Training and Documentation</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Ensure your team understands how the workflows work, how to monitor them, and how to handle exceptions. Provide comprehensive documentation, video tutorials, and hands-on training. This investment pays dividends in faster adoption and reduced support burden.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Establish Governance and Monitoring</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Create clear policies for workflow development, testing, and deployment. Implement monitoring and alerting to catch issues early. Establish a process for reviewing and optimizing workflows regularly. This ensures your automation infrastructure remains reliable and continues to deliver value.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Plan for Security and Compliance</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                From the beginning, consider security and compliance requirements. Ensure sensitive data is protected, access is controlled, and audit trails are maintained. If you're handling regulated data (financial, healthcare, personal information), ensure your automation solution meets all compliance requirements.
+            </p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900" style="font-family: 'Space Grotesk';">Overcoming Common Implementation Challenges</h2>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                While n8n is powerful and flexible, organizations often encounter challenges during implementation. Understanding these challenges and how to address them can help ensure a smooth, successful deployment.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Integration Complexity</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Some systems are difficult to integrate due to legacy technology, poor API documentation, or unique requirements. Solution: Work with experienced integrators who understand your systems, use n8n's webhook capabilities for systems without native connectors, or consider API middleware solutions.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Change Management and Adoption</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Some team members may resist automation, fearing job loss or disruption. Solution: Communicate clearly about the benefits of automation, emphasize that it frees people to focus on higher-value work, involve affected teams in the implementation process, and provide retraining opportunities.
+            </p>
+
+            <h3 class="text-2xl font-medium mt-6 mb-3 text-gray-800" style="font-family: 'Space Grotesk';">Data Quality Issues</h3>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Automation only works well with clean, consistent data. If your source data is messy, automation may amplify errors. Solution: Invest in data quality improvements before automation, build data validation into workflows, and establish data governance practices.
+            </p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900" style="font-family: 'Space Grotesk';">The Future of Workflow Automation</h2>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                The automation landscape is rapidly evolving, with new capabilities emerging regularly. Organizations should stay informed about trends and innovations to maximize their automation investments and remain competitive.
+            </p>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                Artificial intelligence and machine learning are increasingly being integrated into workflow automation platforms, enabling more intelligent decision-making and predictive capabilities. Advanced analytics and real-time dashboards are providing deeper insights into process performance. Low-code and no-code platforms are democratizing automation, enabling business users to create sophisticated workflows without technical expertise.
+            </p>
+
+            <p class="mb-6 leading-relaxed text-gray-700">
+                Organizations that embrace automation now will be well-positioned to adapt to these emerging capabilities and maintain competitive advantage. The question is no longer whether to automate, but how quickly you can implement automation to capture the significant benefits available.
+            </p>
+
+            <h2 class="text-3xl font-semibold mt-8 mb-4 text-gray-900" style="font-family: 'Space Grotesk';">Conclusion: Transform Your Business with n8n Automation</h2>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                n8n workflow automation represents a fundamental shift in how organizations can operate. By automating repetitive, rule-based processes, companies can dramatically reduce costs, improve quality, accelerate execution, and free their teams to focus on strategic, creative work that drives real business value.
+            </p>
+
+            <p class="mb-4 leading-relaxed text-gray-700">
+                The businesses that will thrive in the coming years will be those that embrace automation early and comprehensively. They'll be the ones who can execute faster, with fewer errors, at lower cost. They'll be the ones whose teams spend their time on innovation and strategy rather than data entry and manual processing.
+            </p>
+
+            <p class="mb-6 leading-relaxed text-gray-700">
+                If your organization is still managing critical business processes manually, you're leaving significant value on the table. The time to start your automation journey is now. Begin with a clear assessment of your opportunities, prioritize high-impact processes, and build your automation capability incrementally. With n8n and the right implementation approach, you can transform your business operations and position your organization for sustainable success in an increasingly competitive market.
+            </p>
+
+            <div class="bg-gradient-to-r from-[#FF5A5F] to-[#FFD166] rounded-lg p-8 mt-8 text-white">
+                <h3 class="text-2xl font-bold mb-4" style="font-family: 'Space Grotesk';">Ready to Transform Your Business?</h3>
+                <p class="mb-6 font-light leading-relaxed">
+                    Let Hawthorn AI Consulting help you implement n8n automation and start capturing significant ROI. Our certified experts will guide you through every step of your automation journey.
+                </p>
+                <a href="https://test.com" class="inline-block bg-white text-[#FF5A5F] px-6 py-3 rounded font-bold hover:bg-gray-100 transition-all duration-300" style="border-radius: 4px;">
+                    Schedule a Consultation Today
+                </a>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16 px-4 sm:px-6 lg:px-8 mt-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-[#FF5A5F] to-[#FFD166] rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">HA</span>
+                        </div>
+                        <span class="text-xl font-bold text-white" style="font-family: 'Space Grotesk';">Hawthorn AI</span>
+                    </div>
+                    <p class="text-sm font-light leading-relaxed">
+                        Transforming businesses through intelligent automation and expert n8n implementation.
+                    </p>
+                </div>
+
+                <!-- Product Column -->
+                <div>
+                    <h4 class="text-white font-bold mb-4" style="font-family: 'Space Grotesk';">Product</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="https://test-acc-12349.github.io/hawthorn-ai-consulting-2025-11-09-7bp7q#features" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Features</a></li>
+                        <li><a href="https://test-acc-12349.github.io/hawthorn-ai-consulting-2025-11-09-7bp7q#benefits" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Benefits</a></li>
+                        <li><a href="https://test-acc-12349.github.io/hawthorn-ai-consulting-2025-11-09-7bp7q#faq" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">FAQ</a></li>
+                        <li><a href="https://test.com" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Column -->
+                <div>
+                    <h4 class="text-white font-bold mb-4" style="font-family: 'Space Grotesk';">Company</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="https://test-acc-12349.github.io/hawthorn-ai-consulting-2025-11-09-7bp7q#about" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">About Us</a></li>
+                        <li><a href="blog.html" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Blog</a></li>
+                        <li><a href="mailto:admin@test.com" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Contact</a></li>
+                        <li><a href="https://test.com" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal Column -->
+                <div>
+                    <h4 class="text-white font-bold mb-4" style="font-family: 'Space Grotesk';">Legal</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="privacy.html" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Terms of Service</a></li>
+                        <li><a href="https://test.com" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Cookie Policy</a></li>
+                        <li><a href="https://test.com" class="hover:text-[#FF5A5F] transition-colors duration-200 link-hover">Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Social and Copyright -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-sm font-light mb-4 md:mb-0">
+                        &copy; 2025 Hawthorn AI Consulting. All rights reserved.
+                    </p>
+                    <div class="flex items-center space-x-6">
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF5A5F] transition-colors duration-200" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF5A5F] transition-colors duration-200" aria-label="Twitter">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-[#FF5A5F] transition-colors duration-200" aria-label="GitHub">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                        <a href="mailto:admin@test.com" class="text-gray-400 hover:text-[#FF5A5F] transition-colors duration-200" aria-label="Email">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
